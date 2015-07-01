@@ -3,7 +3,7 @@ Prerequisites
 
 On the robot, run:
 
-	socat udp-recvfrom:20752,fork /dev/ttyUSB0,raw,echo=0
+	socat udp-recvfrom:20752,fork - >/dev/ttyUSB0
 
 License
 -------
