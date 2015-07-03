@@ -7,7 +7,7 @@
 <TextView
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text="Target:"
+    android:text="@string/target_label"
     />
 <EditText
     android:layout_width="fill_parent"
@@ -17,13 +17,13 @@
 <Button
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text="Set as target"
+    android:text="@string/set_as_target"
     android:onClick="setTarget"
     />
 <TextView
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text="Pause between repetitions:"
+    android:text="@string/pause_label"
     />
 <SeekBar
     android:layout_width="fill_parent"

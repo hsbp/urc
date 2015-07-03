@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UDP remote control</string>
+    <string name="target_label">Target:</string>
+    <string name="set_as_target">Set as target</string>
+    <string name="pause_label">Pause between repetitions:</string>
 </resources>
